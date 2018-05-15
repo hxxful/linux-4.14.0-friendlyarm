@@ -1,0 +1,2 @@
+kernel/drivers/hid/uhid.ko
+kernel/drivers/hid/hid-sensor-hub.ko

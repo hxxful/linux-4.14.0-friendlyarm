@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/mb86a20s.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/mb86a20s.ko drivers/media/dvb-frontends/mb86a20s.o drivers/media/dvb-frontends/mb86a20s.mod.o ;  true

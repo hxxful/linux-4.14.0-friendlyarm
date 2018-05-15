@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-imon-pad.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-imon-pad.ko drivers/media/rc/keymaps/rc-imon-pad.o drivers/media/rc/keymaps/rc-imon-pad.mod.o ;  true

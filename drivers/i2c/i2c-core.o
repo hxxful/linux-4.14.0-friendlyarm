@@ -1,0 +1,10 @@
+!<thin>
+//                                              68        `
+i2c-core-base.o/
+i2c-core-smbus.o/
+i2c-core-slave.o/
+i2c-core-of.o/
+/0             /0           0     0     644     53720     `
+/17             0           0     0     644     10720     `
+/35             0           0     0     644     5392      `
+/53             0           0     0     644     7888      `

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_acm_ms.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/legacy/g_acm_ms.ko drivers/usb/gadget/legacy/g_acm_ms.o drivers/usb/gadget/legacy/g_acm_ms.mod.o ;  true

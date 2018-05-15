@@ -1,0 +1,1 @@
+cmd_fs/freevxfs/freevxfs.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o fs/freevxfs/freevxfs.ko fs/freevxfs/freevxfs.o fs/freevxfs/freevxfs.mod.o ;  true

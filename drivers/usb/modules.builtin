@@ -1,0 +1,15 @@
+kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/core/usbcore.ko
+kernel/drivers/usb/core/ledtrig-usbport.ko
+kernel/drivers/usb/dwc2/dwc2.ko
+kernel/drivers/usb/gadget/udc/udc-core.ko
+kernel/drivers/usb/host/ehci-hcd.ko
+kernel/drivers/usb/host/ehci-platform.ko
+kernel/drivers/usb/host/ohci-hcd.ko
+kernel/drivers/usb/host/ohci-platform.ko
+kernel/drivers/usb/host/xhci-hcd.ko
+kernel/drivers/usb/musb/musb_hdrc.ko
+kernel/drivers/usb/musb/sunxi.ko
+kernel/drivers/usb/phy/phy-generic.ko
+kernel/drivers/usb/storage/uas.ko
+kernel/drivers/usb/storage/usb-storage.ko

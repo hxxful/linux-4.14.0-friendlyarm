@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-kaiomy.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-kaiomy.ko drivers/media/rc/keymaps/rc-kaiomy.o drivers/media/rc/keymaps/rc-kaiomy.mod.o ;  true

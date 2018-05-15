@@ -1,0 +1,2 @@
+kernel/drivers/firmware/arm_scpi.ko
+kernel/drivers/firmware/scpi_pm_domain.ko

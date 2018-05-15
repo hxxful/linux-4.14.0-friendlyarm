@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-leadtek-y04g0051.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-leadtek-y04g0051.ko drivers/media/rc/keymaps/rc-leadtek-y04g0051.o drivers/media/rc/keymaps/rc-leadtek-y04g0051.mod.o ;  true

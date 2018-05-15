@@ -1,0 +1,10 @@
+!<thin>
+//                                              58        `
+virtio.o/
+virtio_ring.o/
+virtio_mmio.o/
+virtio_balloon.o/
+/0              0           0     0     644     15512     `
+/10             0           0     0     644     26992     `
+/25             0           0     0     644     13352     `
+/40             0           0     0     644     15560     `

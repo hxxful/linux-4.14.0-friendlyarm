@@ -1,0 +1,1 @@
+cmd_drivers/clk/sunxi-ng/built-in.o :=  rm -f drivers/clk/sunxi-ng/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/clk/sunxi-ng/built-in.o drivers/clk/sunxi-ng/ccu-sun50i-a64.o drivers/clk/sunxi-ng/ccu-sun8i-h3.o drivers/clk/sunxi-ng/ccu-sun8i-de2.o drivers/clk/sunxi-ng/ccu-sun8i-r.o drivers/clk/sunxi-ng/lib.a drivers/clk/sunxi-ng/lib-ksyms.o 

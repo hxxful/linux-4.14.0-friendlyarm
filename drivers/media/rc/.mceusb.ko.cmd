@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/mceusb.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/mceusb.ko drivers/media/rc/mceusb.o drivers/media/rc/mceusb.mod.o ;  true

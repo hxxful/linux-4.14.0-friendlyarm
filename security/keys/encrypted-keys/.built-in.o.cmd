@@ -1,0 +1,1 @@
+cmd_security/keys/encrypted-keys/built-in.o :=  rm -f security/keys/encrypted-keys/built-in.o; aarch64-linux-gnu-ar rcSTPD security/keys/encrypted-keys/built-in.o security/keys/encrypted-keys/encrypted-keys.o 

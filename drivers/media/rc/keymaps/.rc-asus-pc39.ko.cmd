@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-asus-pc39.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-asus-pc39.ko drivers/media/rc/keymaps/rc-asus-pc39.o drivers/media/rc/keymaps/rc-asus-pc39.mod.o ;  true

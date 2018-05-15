@@ -1,0 +1,110 @@
+!<thin>
+//                                              672       `
+client.o/
+dir.o/
+file.o/
+getroot.o/
+inode.o/
+super.o/
+io.o/
+direct.o/
+pagelist.o/
+read.o/
+symlink.o/
+unlink.o/
+write.o/
+namespace.o/
+mount_clnt.o/
+nfstrace.o/
+export.o/
+nfsroot.o/
+sysctl.o/
+fscache.o/
+fscache-index.o/
+nfs2super.o/
+proc.o/
+nfs2xdr.o/
+nfs3super.o/
+nfs3client.o/
+nfs3proc.o/
+nfs3xdr.o/
+nfs3acl.o/
+nfs4proc.o/
+nfs4xdr.o/
+nfs4state.o/
+nfs4renewd.o/
+nfs4super.o/
+nfs4file.o/
+delegation.o/
+nfs4idmap.o/
+callback.o/
+callback_xdr.o/
+callback_proc.o/
+nfs4namespace.o/
+nfs4getroot.o/
+nfs4client.o/
+nfs4session.o/
+dns_resolve.o/
+nfs4trace.o/
+cache_lib.o/
+nfs4sysctl.o/
+pnfs.o/
+pnfs_dev.o/
+pnfs_nfs.o/
+nfs42proc.o/
+filelayout/filelayout.o/
+filelayout/filelayoutdev.o/
+/0              0           0     0     644     31880     `
+/10             0           0     0     644     36968     `
+/17             0           0     0     644     18368     `
+/25             0           0     0     644     2184      `
+/36             0           0     0     644     43616     `
+/45             0           0     0     644     53704     `
+/54             0           0     0     644     2448      `
+/60             0           0     0     644     16128     `
+/70             0           0     0     644     21704     `
+/82             0           0     0     644     11560     `
+/90             0           0     0     644     2840      `
+/101            0           0     0     644     8296      `
+/111            0           0     0     644     39496     `
+/120            0           0     0     644     7688      `
+/133            0           0     0     644     5608      `
+/147            0           0     0     644     944       `
+/159            0           0     0     644     2856      `
+/169            0           0     0     644     8792      `
+/180            0           0     0     644     2856      `
+/190            0           0     0     644     8560      `
+/201           /0           0     0     644     4112      `
+/218            0           0     0     644     2640      `
+/231            0           0     0     644     13816     `
+/239            0           0     0     644     11672     `
+/250            0           0     0     644     2712      `
+/263            0           0     0     644     3560      `
+/277            0           0     0     644     17536     `
+/289            0           0     0     644     20752     `
+/300            0           0     0     644     6128      `
+/311            0           0     0     644     114360    `
+/323            0           0     0     644     69792     `
+/334            0           0     0     644     37096     `
+/347            0           0     0     644     2736      `
+/361            0           0     0     644     9656      `
+/374            0           0     0     644     5848      `
+/386            0           0     0     644     12752     `
+/400            0           0     0     644     14384     `
+/413            0           0     0     644     8112      `
+/425            0           0     0     644     12904     `
+/441           /0           0     0     644     6440      `
+/458           /0           0     0     644     7016      `
+/475            0           0     0     644     1720      `
+/490            0           0     0     644     16096     `
+/504            0           0     0     644     8920      `
+/519            0           0     0     644     8728      `
+/534            0           0     0     644     944       `
+/547            0           0     0     644     5696      `
+/560            0           0     0     644     3136      `
+/574            0           0     0     644     42200     `
+/582            0           0     0     644     7976      `
+/594            0           0     0     644     20560     `
+/606            0           0     0     644     9688      `
+/619            0           0     0     644     18656     `
+/644           /0           0     0     644     6112      `

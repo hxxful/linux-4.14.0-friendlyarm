@@ -1,0 +1,70 @@
+!<thin>
+//                                              570       `
+tty_io.o/
+n_tty.o/
+tty_ioctl.o/
+tty_ldisc.o/
+tty_buffer.o/
+tty_port.o/
+tty_mutex.o/
+tty_ldsem.o/
+tty_baudrate.o/
+tty_jobctrl.o/
+n_null.o/
+pty.o/
+tty_audit.o/
+sysrq.o/
+vt/vt_ioctl.o/
+vt/vc_screen.o/
+vt/selection.o/
+vt/keyboard.o/
+vt/consolemap.o/
+vt/consolemap_deftbl.o/
+vt/vt.o/
+vt/defkeymap.o/
+hvc/hvc_console.o/
+serial/serial_core.o/
+serial/earlycon.o/
+serial/8250/8250_core.o/
+serial/8250/8250_port.o/
+serial/8250/8250_dma.o/
+serial/8250/8250_early.o/
+serial/8250/8250_fsl.o/
+serial/8250/8250_dw.o/
+serial/8250/8250_of.o/
+serial/amba-pl011.o/
+serial/xilinx_uartps.o/
+/0              0           0     0     644     60000     `
+/10             0           0     0     644     27856     `
+/19             0           0     0     644     19576     `
+/32             0           0     0     644     14728     `
+/45             0           0     0     644     11248     `
+/59             0           0     0     644     21760     `
+/71             0           0     0     644     3912      `
+/84             0           0     0     644     4112      `
+/97             0           0     0     644     4384      `
+/113            0           0     0     644     10664     `
+/128            0           0     0     644     3408      `
+/138            0           0     0     644     22432     `
+/145            0           0     0     644     5352      `
+/158            0           0     0     644     28000     `
+/167            0           0     0     644     23416     `
+/182            0           0     0     644     11256     `
+/198            0           0     0     644     9200      `
+/214            0           0     0     644     46840     `
+/229            0           0     0     644     14376     `
+/246            0           0     0     644     1920      `
+/270            0           0     0     644     80136     `
+/279            0           0     0     644     13416     `
+/295            0           0     0     644     18136     `
+/314            0           0     0     644     51608     `
+/336            0           0     0     644     7104      `
+/355            0           0     0     644     23152     `
+/380            0           0     0     644     45352     `
+/405            0           0     0     644     8384      `
+/429            0           0     0     644     5048      `
+/455            0           0     0     644     2240      `
+/479            0           0     0     644     15496     `
+/502            0           0     0     644     13232     `
+/525            0           0     0     644     38448     `
+/546           /0           0     0     644     27392     `

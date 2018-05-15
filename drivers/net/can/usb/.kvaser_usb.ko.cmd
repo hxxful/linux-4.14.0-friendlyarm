@@ -1,0 +1,1 @@
+cmd_drivers/net/can/usb/kvaser_usb.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/can/usb/kvaser_usb.ko drivers/net/can/usb/kvaser_usb.o drivers/net/can/usb/kvaser_usb.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-d680-dmb.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-d680-dmb.ko drivers/media/rc/keymaps/rc-d680-dmb.o drivers/media/rc/keymaps/rc-d680-dmb.mod.o ;  true

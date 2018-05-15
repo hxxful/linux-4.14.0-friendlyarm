@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ar5523/ar5523.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/ath/ar5523/ar5523.ko drivers/net/wireless/ath/ar5523/ar5523.o drivers/net/wireless/ath/ar5523/ar5523.mod.o ;  true

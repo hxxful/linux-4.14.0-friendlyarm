@@ -1,0 +1,1 @@
+cmd_drivers/w1/slaves/w1_ds2406.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/w1/slaves/w1_ds2406.ko drivers/w1/slaves/w1_ds2406.o drivers/w1/slaves/w1_ds2406.mod.o ;  true

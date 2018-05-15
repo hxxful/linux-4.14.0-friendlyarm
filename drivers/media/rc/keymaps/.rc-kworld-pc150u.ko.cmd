@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-kworld-pc150u.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-kworld-pc150u.ko drivers/media/rc/keymaps/rc-kworld-pc150u.o drivers/media/rc/keymaps/rc-kworld-pc150u.mod.o ;  true

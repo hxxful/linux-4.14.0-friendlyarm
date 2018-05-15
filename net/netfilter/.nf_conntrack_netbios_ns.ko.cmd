@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_netbios_ns.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o net/netfilter/nf_conntrack_netbios_ns.ko net/netfilter/nf_conntrack_netbios_ns.o net/netfilter/nf_conntrack_netbios_ns.mod.o ;  true

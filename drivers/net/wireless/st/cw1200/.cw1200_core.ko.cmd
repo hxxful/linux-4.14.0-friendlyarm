@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/st/cw1200/cw1200_core.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/st/cw1200/cw1200_core.ko drivers/net/wireless/st/cw1200/cw1200_core.o drivers/net/wireless/st/cw1200/cw1200_core.mod.o ;  true

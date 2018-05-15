@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/marvell/libertas_tf/libertas_tf_usb.o := aarch64-linux-gnu-ld -EL  -maarch64linux   -r -o drivers/net/wireless/marvell/libertas_tf/libertas_tf_usb.o drivers/net/wireless/marvell/libertas_tf/if_usb.o 

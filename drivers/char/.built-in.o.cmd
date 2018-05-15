@@ -1,0 +1,1 @@
+cmd_drivers/char/built-in.o :=  rm -f drivers/char/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/char/built-in.o drivers/char/mem.o drivers/char/random.o drivers/char/misc.o drivers/char/virtio_console.o drivers/char/agp/built-in.o drivers/char/sunxi_soc_info.o 

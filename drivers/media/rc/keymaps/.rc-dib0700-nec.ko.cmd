@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-dib0700-nec.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-dib0700-nec.ko drivers/media/rc/keymaps/rc-dib0700-nec.o drivers/media/rc/keymaps/rc-dib0700-nec.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-digitalnow-tinytwin.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-digitalnow-tinytwin.ko drivers/media/rc/keymaps/rc-digitalnow-tinytwin.o drivers/media/rc/keymaps/rc-digitalnow-tinytwin.mod.o ;  true

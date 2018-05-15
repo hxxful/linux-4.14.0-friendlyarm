@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-nebula.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-nebula.ko drivers/media/rc/keymaps/rc-nebula.o drivers/media/rc/keymaps/rc-nebula.mod.o ;  true

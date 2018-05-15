@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_numgen.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o net/netfilter/nft_numgen.ko net/netfilter/nft_numgen.o net/netfilter/nft_numgen.mod.o ;  true

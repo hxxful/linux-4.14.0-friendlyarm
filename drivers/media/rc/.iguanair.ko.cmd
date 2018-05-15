@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/iguanair.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/iguanair.ko drivers/media/rc/iguanair.o drivers/media/rc/iguanair.mod.o ;  true

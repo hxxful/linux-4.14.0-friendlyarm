@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rsi/rsi_sdio.o := aarch64-linux-gnu-ld -EL  -maarch64linux   -r -o drivers/net/wireless/rsi/rsi_sdio.o drivers/net/wireless/rsi/rsi_91x_sdio.o drivers/net/wireless/rsi/rsi_91x_sdio_ops.o 

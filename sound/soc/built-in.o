@@ -1,0 +1,33 @@
+!<thin>
+//                                              248       `
+soc-core.o/
+soc-dapm.o/
+soc-jack.o/
+soc-cache.o/
+soc-utils.o/
+soc-pcm.o/
+soc-io.o/
+soc-devres.o/
+soc-ops.o/
+soc-generic-dmaengine-pcm.o/
+codecs/hdmi-codec.o/
+sunxi/sun8i-codec-analog.o/
+sunxi/sun4i-codec.o/
+sunxi/sun4i-i2s.o/
+sunxi/sun8i-codec.o/
+
+/0              0           0     0     644     85496     `
+/12             0           0     0     644     66992     `
+/24             0           0     0     644     13440     `
+/36             0           0     0     644     1472      `
+/49             0           0     0     644     14800     `
+/62             0           0     0     644     43344     `
+/73             0           0     0     644     7968      `
+/83             0           0     0     644     5080      `
+/97             0           0     0     644     17112     `
+/108            0           0     0     644     8392      `
+/137            0           0     0     644     12816     `
+/158            0           0     0     644     37824     `
+/186            0           0     0     644     62288     `
+/207            0           0     0     644     17584     `
+/226            0           0     0     644     17664     `

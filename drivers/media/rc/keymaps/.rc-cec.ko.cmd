@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-cec.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-cec.ko drivers/media/rc/keymaps/rc-cec.o drivers/media/rc/keymaps/rc-cec.mod.o ;  true

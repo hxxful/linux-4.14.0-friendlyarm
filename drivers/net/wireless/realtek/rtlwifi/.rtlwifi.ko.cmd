@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtlwifi/rtlwifi.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/realtek/rtlwifi/rtlwifi.ko drivers/net/wireless/realtek/rtlwifi/rtlwifi.o drivers/net/wireless/realtek/rtlwifi/rtlwifi.mod.o ;  true

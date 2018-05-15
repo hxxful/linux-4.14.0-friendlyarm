@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-ds1553.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/rtc/rtc-ds1553.ko drivers/rtc/rtc-ds1553.o drivers/rtc/rtc-ds1553.mod.o ;  true

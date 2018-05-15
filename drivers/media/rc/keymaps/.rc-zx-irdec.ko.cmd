@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-zx-irdec.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-zx-irdec.ko drivers/media/rc/keymaps/rc-zx-irdec.o drivers/media/rc/keymaps/rc-zx-irdec.mod.o ;  true

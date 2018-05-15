@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_rt.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o net/netfilter/nft_rt.ko net/netfilter/nft_rt.o net/netfilter/nft_rt.mod.o ;  true

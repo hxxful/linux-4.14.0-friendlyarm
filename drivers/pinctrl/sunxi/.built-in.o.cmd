@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/sunxi/built-in.o :=  rm -f drivers/pinctrl/sunxi/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/pinctrl/sunxi/built-in.o drivers/pinctrl/sunxi/pinctrl-sunxi.o drivers/pinctrl/sunxi/pinctrl-sun50i-a64.o drivers/pinctrl/sunxi/pinctrl-sun50i-a64-r.o drivers/pinctrl/sunxi/pinctrl-sun8i-h3-r.o drivers/pinctrl/sunxi/pinctrl-sun50i-h5.o 

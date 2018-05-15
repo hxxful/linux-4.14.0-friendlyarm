@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-terratec-cinergy-xs.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-terratec-cinergy-xs.ko drivers/media/rc/keymaps/rc-terratec-cinergy-xs.o drivers/media/rc/keymaps/rc-terratec-cinergy-xs.mod.o ;  true

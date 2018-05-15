@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rsi/rsi_91x.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/rsi/rsi_91x.ko drivers/net/wireless/rsi/rsi_91x.o drivers/net/wireless/rsi/rsi_91x.mod.o ;  true

@@ -1,0 +1,76 @@
+!<thin>
+//                                              650       `
+sound_core.o/
+core/sound.o/
+core/init.o/
+core/memory.o/
+core/control.o/
+core/misc.o/
+core/device.o/
+core/info.o/
+core/ctljack.o/
+core/jack.o/
+core/timer.o/
+core/pcm.o/
+core/pcm_native.o/
+core/pcm_lib.o/
+core/pcm_misc.o/
+core/pcm_memory.o/
+core/memalloc.o/
+core/pcm_timer.o/
+core/pcm_drm_eld.o/
+core/pcm_iec958.o/
+core/pcm_dmaengine.o/
+soc/soc-core.o/
+soc/soc-dapm.o/
+soc/soc-jack.o/
+soc/soc-cache.o/
+soc/soc-utils.o/
+soc/soc-pcm.o/
+soc/soc-io.o/
+soc/soc-devres.o/
+soc/soc-ops.o/
+soc/soc-generic-dmaengine-pcm.o/
+soc/codecs/hdmi-codec.o/
+soc/sunxi/sun8i-codec-analog.o/
+soc/sunxi/sun4i-codec.o/
+soc/sunxi/sun4i-i2s.o/
+soc/sunxi/sun8i-codec.o/
+last.o/
+/0              0           0     0     644     3536      `
+/14             0           0     0     644     13440     `
+/28             0           0     0     644     24032     `
+/41             0           0     0     644     2664      `
+/56             0           0     0     644     45360     `
+/72             0           0     0     644     1768      `
+/85             0           0     0     644     4880      `
+/100            0           0     0     644     17376     `
+/113            0           0     0     644     2640      `
+/129            0           0     0     644     7856      `
+/142            0           0     0     644     41448     `
+/156            0           0     0     644     30360     `
+/168            0           0     0     644     76384     `
+/187            0           0     0     644     37808     `
+/203            0           0     0     644     10912     `
+/220            0           0     0     644     10128     `
+/239            0           0     0     644     6640      `
+/256            0           0     0     644     3440      `
+/274            0           0     0     644     2888      `
+/294            0           0     0     644     2888      `
+/313           /0           0     0     644     8680      `
+/335            0           0     0     644     85496     `
+/351            0           0     0     644     66992     `
+/367            0           0     0     644     13440     `
+/383            0           0     0     644     1472      `
+/400            0           0     0     644     14800     `
+/417            0           0     0     644     43344     `
+/432            0           0     0     644     7968      `
+/446            0           0     0     644     5080      `
+/464            0           0     0     644     17112     `
+/479            0           0     0     644     8392      `
+/512            0           0     0     644     12816     `
+/537            0           0     0     644     37824     `
+/569            0           0     0     644     62288     `
+/594            0           0     0     644     17584     `
+/617            0           0     0     644     17664     `
+/642            0           0     0     644     2112      `

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ti/wl1251/wl1251.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/ti/wl1251/wl1251.ko drivers/net/wireless/ti/wl1251/wl1251.o drivers/net/wireless/ti/wl1251/wl1251.mod.o ;  true

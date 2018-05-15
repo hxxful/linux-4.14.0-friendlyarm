@@ -1,0 +1,29 @@
+!<thin>
+//                                              274       `
+i2c-boardinfo.o/
+i2c-core-base.o/
+i2c-core-smbus.o/
+i2c-core-slave.o/
+i2c-core-of.o/
+i2c-dev.o/
+i2c-mux.o/
+algos/i2c-algo-bit.o/
+busses/i2c-designware-common.o/
+busses/i2c-designware-master.o/
+busses/i2c-designware-platdrv.o/
+busses/i2c-mv64xxx.o/
+muxes/i2c-mux-pca954x.o/
+
+/0             /0           0     0     644     3680      `
+/17            /0           0     0     644     53720     `
+/34             0           0     0     644     10720     `
+/52             0           0     0     644     5392      `
+/70             0           0     0     644     7888      `
+/85             0           0     0     644     14192     `
+/96             0           0     0     644     10960     `
+/107            0           0     0     644     10424     `
+/129            0           0     0     644     6856      `
+/161            0           0     0     644     9968      `
+/193            0           0     0     644     8728      `
+/226            0           0     0     644     15456     `
+/248            0           0     0     644     11424     `

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rsi/rsi_usb.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/rsi/rsi_usb.ko drivers/net/wireless/rsi/rsi_usb.o drivers/net/wireless/rsi/rsi_usb.mod.o ;  true

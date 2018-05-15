@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rsi/rsi_sdio.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/rsi/rsi_sdio.ko drivers/net/wireless/rsi/rsi_sdio.o drivers/net/wireless/rsi/rsi_sdio.mod.o ;  true

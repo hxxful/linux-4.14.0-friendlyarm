@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_fs.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/function/usb_f_fs.ko drivers/usb/gadget/function/usb_f_fs.o drivers/usb/gadget/function/usb_f_fs.mod.o ;  true

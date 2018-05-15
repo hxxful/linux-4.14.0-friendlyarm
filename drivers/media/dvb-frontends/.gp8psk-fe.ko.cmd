@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/gp8psk-fe.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/gp8psk-fe.ko drivers/media/dvb-frontends/gp8psk-fe.o drivers/media/dvb-frontends/gp8psk-fe.mod.o ;  true

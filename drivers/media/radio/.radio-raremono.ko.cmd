@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/radio-raremono.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/radio/radio-raremono.ko drivers/media/radio/radio-raremono.o drivers/media/radio/radio-raremono.mod.o ;  true

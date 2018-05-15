@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/tda10086.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/tda10086.ko drivers/media/dvb-frontends/tda10086.o drivers/media/dvb-frontends/tda10086.mod.o ;  true

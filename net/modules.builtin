@@ -1,0 +1,17 @@
+kernel/net/9p/9pnet.ko
+kernel/net/9p/9pnet_virtio.ko
+kernel/net/dns_resolver/dns_resolver.ko
+kernel/net/ipv4/tcp_cubic.ko
+kernel/net/ipv4/netfilter/ip_tables.ko
+kernel/net/ipv6/ipv6.ko
+kernel/net/ipv6/inet6_hashtables.ko
+kernel/net/mac80211/mac80211.ko
+kernel/net/netfilter/x_tables.ko
+kernel/net/netfilter/xt_tcpudp.ko
+kernel/net/packet/af_packet.ko
+kernel/net/rfkill/rfkill.ko
+kernel/net/rfkill/rfkill-gpio.ko
+kernel/net/sunrpc/sunrpc.ko
+kernel/net/sunrpc/auth_gss/auth_rpcgss.ko
+kernel/net/unix/unix.ko
+kernel/net/wireless/cfg80211.ko

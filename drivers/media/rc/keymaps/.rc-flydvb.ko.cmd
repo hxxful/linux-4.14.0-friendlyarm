@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-flydvb.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-flydvb.ko drivers/media/rc/keymaps/rc-flydvb.o drivers/media/rc/keymaps/rc-flydvb.mod.o ;  true

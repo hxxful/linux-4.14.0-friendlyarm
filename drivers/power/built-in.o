@@ -1,0 +1,10 @@
+!<thin>
+//                                              108       `
+reset/syscon-reboot.o/
+supply/power_supply_core.o/
+supply/power_supply_sysfs.o/
+supply/power_supply_leds.o/
+/0             /0           0     0     644     4232      `
+/23             0           0     0     644     29280     `
+/51             0           0     0     644     16592     `
+/80             0           0     0     644     3672      `

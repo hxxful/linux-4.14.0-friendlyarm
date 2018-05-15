@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-digittrade.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-digittrade.ko drivers/media/rc/keymaps/rc-digittrade.o drivers/media/rc/keymaps/rc-digittrade.mod.o ;  true

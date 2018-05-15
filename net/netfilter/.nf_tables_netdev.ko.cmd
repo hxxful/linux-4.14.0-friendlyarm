@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_tables_netdev.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o net/netfilter/nf_tables_netdev.ko net/netfilter/nf_tables_netdev.o net/netfilter/nf_tables_netdev.mod.o ;  true

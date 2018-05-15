@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stv0299.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/stv0299.ko drivers/media/dvb-frontends/stv0299.o drivers/media/dvb-frontends/stv0299.mod.o ;  true

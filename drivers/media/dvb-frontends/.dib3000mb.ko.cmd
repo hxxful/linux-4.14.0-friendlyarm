@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/dib3000mb.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/dib3000mb.ko drivers/media/dvb-frontends/dib3000mb.o drivers/media/dvb-frontends/dib3000mb.mod.o ;  true

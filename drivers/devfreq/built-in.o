@@ -1,0 +1,17 @@
+!<thin>
+//                                              144       `
+devfreq.o/
+devfreq-event.o/
+governor_simpleondemand.o/
+governor_performance.o/
+governor_powersave.o/
+governor_userspace.o/
+governor_passive.o/
+
+/0              0           0     0     644     39040     `
+/11            /0           0     0     644     15304     `
+/28             0           0     0     644     4208      `
+/55             0           0     0     644     3568      `
+/79             0           0     0     644     3528      `
+/101            0           0     0     644     5288      `
+/123            0           0     0     644     4712      `

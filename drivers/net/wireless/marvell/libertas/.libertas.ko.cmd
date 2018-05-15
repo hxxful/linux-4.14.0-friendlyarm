@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/marvell/libertas/libertas.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/marvell/libertas/libertas.ko drivers/net/wireless/marvell/libertas/libertas.o drivers/net/wireless/marvell/libertas/libertas.mod.o ;  true

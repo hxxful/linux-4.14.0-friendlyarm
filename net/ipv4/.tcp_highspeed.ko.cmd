@@ -1,0 +1,1 @@
+cmd_net/ipv4/tcp_highspeed.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o net/ipv4/tcp_highspeed.ko net/ipv4/tcp_highspeed.o net/ipv4/tcp_highspeed.mod.o ;  true

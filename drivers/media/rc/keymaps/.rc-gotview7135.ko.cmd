@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-gotview7135.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-gotview7135.ko drivers/media/rc/keymaps/rc-gotview7135.o drivers/media/rc/keymaps/rc-gotview7135.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_fs/nfs/blocklayout/blocklayoutdriver.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o fs/nfs/blocklayout/blocklayoutdriver.ko fs/nfs/blocklayout/blocklayoutdriver.o fs/nfs/blocklayout/blocklayoutdriver.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/max2165.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/max2165.ko drivers/media/tuners/max2165.o drivers/media/tuners/max2165.mod.o ;  true

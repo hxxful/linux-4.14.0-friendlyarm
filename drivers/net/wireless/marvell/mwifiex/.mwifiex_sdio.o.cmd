@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o := aarch64-linux-gnu-ld -EL  -maarch64linux   -r -o drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o drivers/net/wireless/marvell/mwifiex/sdio.o 

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-proteus-2309.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-proteus-2309.ko drivers/media/rc/keymaps/rc-proteus-2309.o drivers/media/rc/keymaps/rc-proteus-2309.mod.o ;  true

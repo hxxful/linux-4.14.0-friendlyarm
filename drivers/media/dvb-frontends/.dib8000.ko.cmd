@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/dib8000.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/dib8000.ko drivers/media/dvb-frontends/dib8000.o drivers/media/dvb-frontends/dib8000.mod.o ;  true

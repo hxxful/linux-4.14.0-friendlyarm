@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/marvell/mwifiex/mwifiex_usb.o := aarch64-linux-gnu-ld -EL  -maarch64linux   -r -o drivers/net/wireless/marvell/mwifiex/mwifiex_usb.o drivers/net/wireless/marvell/mwifiex/usb.o 

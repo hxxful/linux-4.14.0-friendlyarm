@@ -1,0 +1,1 @@
+cmd_net/ipv6/esp6_offload.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o net/ipv6/esp6_offload.ko net/ipv6/esp6_offload.o net/ipv6/esp6_offload.mod.o ;  true

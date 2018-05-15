@@ -1,0 +1,16 @@
+!<thin>
+//                                              108       `
+irqchip.o/
+irq-sun4i.o/
+irq-sunxi-nmi.o/
+irq-gic.o/
+irq-gic-common.o/
+irq-gic-v3.o/
+irq-partition-percpu.o/
+/0              0           0     0     644     1736      `
+/11             0           0     0     644     6144      `
+/24            /0           0     0     644     7400      `
+/41             0           0     0     644     27920     `
+/52             0           0     0     644     3456      `
+/70             0           0     0     644     27680     `
+/84             0           0     0     644     7064      `

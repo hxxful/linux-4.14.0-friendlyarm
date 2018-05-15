@@ -1,0 +1,1 @@
+cmd_drivers/net/can/usb/ems_usb.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/can/usb/ems_usb.ko drivers/net/can/usb/ems_usb.o drivers/net/can/usb/ems_usb.mod.o ;  true

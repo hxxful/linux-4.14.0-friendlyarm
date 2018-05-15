@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/ir-lirc-codec.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/ir-lirc-codec.ko drivers/media/rc/ir-lirc-codec.o drivers/media/rc/ir-lirc-codec.mod.o ;  true

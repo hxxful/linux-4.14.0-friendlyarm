@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/cx22702.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/cx22702.ko drivers/media/dvb-frontends/cx22702.o drivers/media/dvb-frontends/cx22702.mod.o ;  true

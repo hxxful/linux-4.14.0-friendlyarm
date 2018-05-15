@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/redrat3.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/redrat3.ko drivers/media/rc/redrat3.o drivers/media/rc/redrat3.mod.o ;  true

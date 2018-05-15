@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/dsbr100.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/radio/dsbr100.ko drivers/media/radio/dsbr100.o drivers/media/radio/dsbr100.mod.o ;  true

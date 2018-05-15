@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_set_hash.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o net/netfilter/nft_set_hash.ko net/netfilter/nft_set_hash.o net/netfilter/nft_set_hash.mod.o ;  true

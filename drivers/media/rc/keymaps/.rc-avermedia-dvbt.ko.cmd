@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-avermedia-dvbt.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-avermedia-dvbt.ko drivers/media/rc/keymaps/rc-avermedia-dvbt.o drivers/media/rc/keymaps/rc-avermedia-dvbt.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-r9701.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/rtc/rtc-r9701.ko drivers/rtc/rtc-r9701.o drivers/rtc/rtc-r9701.mod.o ;  true

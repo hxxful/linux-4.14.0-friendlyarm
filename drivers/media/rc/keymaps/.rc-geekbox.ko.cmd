@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-geekbox.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-geekbox.ko drivers/media/rc/keymaps/rc-geekbox.o drivers/media/rc/keymaps/rc-geekbox.mod.o ;  true

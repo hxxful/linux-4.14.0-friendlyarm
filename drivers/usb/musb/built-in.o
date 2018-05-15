@@ -1,0 +1,19 @@
+!<thin>
+//                                              116       `
+musb_core.o/
+musb_trace.o/
+musb_virthub.o/
+musb_host.o/
+musb_gadget_ep0.o/
+musb_gadget.o/
+musb_debugfs.o/
+sunxi.o/
+
+/0              0           0     0     644     51040     `
+/13             0           0     0     644     1032      `
+/27             0           0     0     644     7792      `
+/43             0           0     0     644     32496     `
+/56             0           0     0     644     11704     `
+/75             0           0     0     644     29032     `
+/90             0           0     0     644     12984     `
+/106            0           0     0     644     20680     `

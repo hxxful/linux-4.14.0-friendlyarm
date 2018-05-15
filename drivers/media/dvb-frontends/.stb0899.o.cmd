@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stb0899.o := aarch64-linux-gnu-ld -EL  -maarch64linux   -r -o drivers/media/dvb-frontends/stb0899.o drivers/media/dvb-frontends/stb0899_drv.o drivers/media/dvb-frontends/stb0899_algo.o 

@@ -1,0 +1,1 @@
+cmd_drivers/media/common/cx2341x.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/common/cx2341x.ko drivers/media/common/cx2341x.o drivers/media/common/cx2341x.mod.o ;  true

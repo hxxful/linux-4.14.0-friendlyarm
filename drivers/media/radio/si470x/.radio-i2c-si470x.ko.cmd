@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/si470x/radio-i2c-si470x.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/radio/si470x/radio-i2c-si470x.ko drivers/media/radio/si470x/radio-i2c-si470x.o drivers/media/radio/si470x/radio-i2c-si470x.mod.o ;  true

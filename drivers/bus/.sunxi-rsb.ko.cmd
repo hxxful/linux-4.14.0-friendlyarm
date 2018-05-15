@@ -1,0 +1,1 @@
+cmd_drivers/bus/sunxi-rsb.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/bus/sunxi-rsb.ko drivers/bus/sunxi-rsb.o drivers/bus/sunxi-rsb.mod.o ;  true

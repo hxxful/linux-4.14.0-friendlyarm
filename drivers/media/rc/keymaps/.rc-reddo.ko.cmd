@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-reddo.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-reddo.ko drivers/media/rc/keymaps/rc-reddo.o drivers/media/rc/keymaps/rc-reddo.mod.o ;  true

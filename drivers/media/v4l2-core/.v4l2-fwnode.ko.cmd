@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/v4l2-fwnode.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/v4l2-core/v4l2-fwnode.ko drivers/media/v4l2-core/v4l2-fwnode.o drivers/media/v4l2-core/v4l2-fwnode.mod.o ;  true

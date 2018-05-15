@@ -1,0 +1,11 @@
+!<thin>
+//                                              70        `
+logo.o/
+logo_linux_mono.o/
+logo_linux_vga16.o/
+logo_linux_clut224.o/
+
+/0              0           0     0     644     3320      `
+/8              0           0     0     644     2208      `
+/27             0           0     0     644     4608      `
+/47             0           0     0     644     8456      `

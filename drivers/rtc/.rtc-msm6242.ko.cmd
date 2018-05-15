@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-msm6242.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/rtc/rtc-msm6242.ko drivers/rtc/rtc-msm6242.o drivers/rtc/rtc-msm6242.mod.o ;  true

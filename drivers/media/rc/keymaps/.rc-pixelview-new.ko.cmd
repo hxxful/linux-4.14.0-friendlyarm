@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-pixelview-new.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-pixelview-new.ko drivers/media/rc/keymaps/rc-pixelview-new.o drivers/media/rc/keymaps/rc-pixelview-new.mod.o ;  true

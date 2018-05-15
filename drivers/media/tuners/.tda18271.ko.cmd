@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/tda18271.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/tda18271.ko drivers/media/tuners/tda18271.o drivers/media/tuners/tda18271.mod.o ;  true

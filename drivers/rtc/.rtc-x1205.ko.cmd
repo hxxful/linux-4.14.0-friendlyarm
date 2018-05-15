@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-x1205.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/rtc/rtc-x1205.ko drivers/rtc/rtc-x1205.o drivers/rtc/rtc-x1205.mod.o ;  true

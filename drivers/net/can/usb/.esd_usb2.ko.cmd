@@ -1,0 +1,1 @@
+cmd_drivers/net/can/usb/esd_usb2.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/net/can/usb/esd_usb2.ko drivers/net/can/usb/esd_usb2.o drivers/net/can/usb/esd_usb2.mod.o ;  true

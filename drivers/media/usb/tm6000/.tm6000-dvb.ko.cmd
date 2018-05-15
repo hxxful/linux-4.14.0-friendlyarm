@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/tm6000/tm6000-dvb.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/tm6000/tm6000-dvb.ko drivers/media/usb/tm6000/tm6000-dvb.o drivers/media/usb/tm6000/tm6000-dvb.mod.o ;  true

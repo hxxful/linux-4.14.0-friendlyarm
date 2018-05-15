@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_queue.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o net/netfilter/nft_queue.ko net/netfilter/nft_queue.o net/netfilter/nft_queue.mod.o ;  true

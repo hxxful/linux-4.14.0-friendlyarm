@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/radio-wl1273.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/radio/radio-wl1273.ko drivers/media/radio/radio-wl1273.o drivers/media/radio/radio-wl1273.mod.o ;  true

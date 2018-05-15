@@ -1,0 +1,4 @@
+kernel/drivers/phy/phy-xgene.ko
+kernel/drivers/phy/allwinner/phy-sun4i-usb.ko
+kernel/drivers/phy/allwinner/phy-sun9i-usb.ko
+kernel/drivers/phy/samsung/phy-exynos-usb2.ko

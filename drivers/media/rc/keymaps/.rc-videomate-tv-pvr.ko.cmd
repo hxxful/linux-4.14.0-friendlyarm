@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-videomate-tv-pvr.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-videomate-tv-pvr.ko drivers/media/rc/keymaps/rc-videomate-tv-pvr.o drivers/media/rc/keymaps/rc-videomate-tv-pvr.mod.o ;  true

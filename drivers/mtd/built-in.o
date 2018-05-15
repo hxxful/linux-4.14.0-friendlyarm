@@ -1,0 +1,57 @@
+!<thin>
+//                                              368       `
+mtdcore.o/
+mtdsuper.o/
+mtdconcat.o/
+mtdpart.o/
+mtdchar.o/
+ofpart.o/
+mtd_blkdevs.o/
+mtdblock.o/
+chips/chipreg.o/
+chips/cfi_probe.o/
+chips/cfi_util.o/
+chips/gen_probe.o/
+chips/jedec_probe.o/
+devices/m25p80.o/
+spi-nor/spi-nor.o/
+ubi/vtbl.o/
+ubi/vmt.o/
+ubi/upd.o/
+ubi/build.o/
+ubi/cdev.o/
+ubi/kapi.o/
+ubi/eba.o/
+ubi/io.o/
+ubi/wl.o/
+ubi/attach.o/
+ubi/misc.o/
+ubi/debug.o/
+
+/0              0           0     0     644     45648     `
+/11             0           0     0     644     4072      `
+/23             0           0     0     644     12264     `
+/36             0           0     0     644     19088     `
+/47             0           0     0     644     17872     `
+/58             0           0     0     644     6232      `
+/68             0           0     0     644     15432     `
+/83             0           0     0     644     6992      `
+/95             0           0     0     644     4696      `
+/112            0           0     0     644     8152      `
+/131            0           0     0     644     12416     `
+/149            0           0     0     644     5136      `
+/168            0           0     0     644     22360     `
+/189            0           0     0     644     9144      `
+/207            0           0     0     644     32592     `
+/226            0           0     0     644     12544     `
+/238            0           0     0     644     16504     `
+/249            0           0     0     644     7032      `
+/260            0           0     0     644     28696     `
+/273            0           0     0     644     19312     `
+/285            0           0     0     644     16496     `
+/297            0           0     0     644     23824     `
+/308            0           0     0     644     25608     `
+/318            0           0     0     644     28080     `
+/328            0           0     0     644     21736     `
+/342            0           0     0     644     3696      `
+/354            0           0     0     644     19520     `

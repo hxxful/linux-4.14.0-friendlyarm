@@ -1,0 +1,5 @@
+kernel/sound/soc/codecs/snd-soc-spdif-rx.ko
+kernel/sound/soc/codecs/snd-soc-spdif-tx.ko
+kernel/sound/soc/generic/snd-soc-simple-card-utils.ko
+kernel/sound/soc/generic/snd-soc-simple-card.ko
+kernel/sound/soc/generic/snd-soc-simple-scu-card.ko

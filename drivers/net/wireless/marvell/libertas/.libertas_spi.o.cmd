@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/marvell/libertas/libertas_spi.o := aarch64-linux-gnu-ld -EL  -maarch64linux   -r -o drivers/net/wireless/marvell/libertas/libertas_spi.o drivers/net/wireless/marvell/libertas/if_spi.o 

@@ -1,0 +1,1 @@
+cmd_sound/core/built-in.o :=  rm -f sound/core/built-in.o; aarch64-linux-gnu-ar rcSTPD sound/core/built-in.o sound/core/snd.o sound/core/snd-timer.o sound/core/snd-pcm.o sound/core/snd-pcm-dmaengine.o 

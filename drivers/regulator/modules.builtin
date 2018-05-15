@@ -1,0 +1,5 @@
+kernel/drivers/regulator/fixed.ko
+kernel/drivers/regulator/gpio-regulator.ko
+kernel/drivers/regulator/qcom_spmi-regulator.ko
+kernel/drivers/regulator/s2mps11.ko
+kernel/drivers/regulator/sy8106a-regulator.ko

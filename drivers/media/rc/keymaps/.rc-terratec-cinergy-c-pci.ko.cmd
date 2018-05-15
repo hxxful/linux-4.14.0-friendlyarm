@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-terratec-cinergy-c-pci.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-terratec-cinergy-c-pci.ko drivers/media/rc/keymaps/rc-terratec-cinergy-c-pci.o drivers/media/rc/keymaps/rc-terratec-cinergy-c-pci.mod.o ;  true

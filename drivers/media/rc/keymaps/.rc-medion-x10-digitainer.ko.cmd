@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-medion-x10-digitainer.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-medion-x10-digitainer.ko drivers/media/rc/keymaps/rc-medion-x10-digitainer.o drivers/media/rc/keymaps/rc-medion-x10-digitainer.mod.o ;  true

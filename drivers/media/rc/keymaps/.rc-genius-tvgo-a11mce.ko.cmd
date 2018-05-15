@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-genius-tvgo-a11mce.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-genius-tvgo-a11mce.ko drivers/media/rc/keymaps/rc-genius-tvgo-a11mce.o drivers/media/rc/keymaps/rc-genius-tvgo-a11mce.mod.o ;  true

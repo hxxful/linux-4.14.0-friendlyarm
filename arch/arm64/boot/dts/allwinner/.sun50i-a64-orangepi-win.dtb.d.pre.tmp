@@ -1,0 +1,9 @@
+sun50i-a64-orangepi-win.o: \
+ arch/arm64/boot/dts/allwinner/sun50i-a64-orangepi-win.dts \
+ arch/arm64/boot/dts/allwinner/sun50i-a64.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/sun50i-a64-ccu.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/sun8i-r-ccu.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/reset/sun50i-a64-ccu.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

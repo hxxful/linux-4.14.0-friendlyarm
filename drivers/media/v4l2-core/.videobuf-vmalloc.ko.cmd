@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/videobuf-vmalloc.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/v4l2-core/videobuf-vmalloc.ko drivers/media/v4l2-core/videobuf-vmalloc.o drivers/media/v4l2-core/videobuf-vmalloc.mod.o ;  true

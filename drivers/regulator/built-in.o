@@ -1,0 +1,24 @@
+!<thin>
+//                                              152       `
+core.o/
+dummy.o/
+fixed-helper.o/
+helpers.o/
+devres.o/
+of_regulator.o/
+fixed.o/
+gpio-regulator.o/
+qcom_spmi-regulator.o/
+s2mps11.o/
+sy8106a-regulator.o/
+/0              0           0     0     644     91800     `
+/8              0           0     0     644     4248      `
+/17             0           0     0     644     2056      `
+/33             0           0     0     644     12592     `
+/44             0           0     0     644     12776     `
+/54             0           0     0     644     10144     `
+/70             0           0     0     644     5976      `
+/79             0           0     0     644     10648     `
+/97             0           0     0     644     38216     `
+/120            0           0     0     644     74264     `
+/131            0           0     0     644     6264      `

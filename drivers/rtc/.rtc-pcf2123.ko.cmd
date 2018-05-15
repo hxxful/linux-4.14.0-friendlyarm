@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-pcf2123.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/rtc/rtc-pcf2123.ko drivers/rtc/rtc-pcf2123.o drivers/rtc/rtc-pcf2123.mod.o ;  true

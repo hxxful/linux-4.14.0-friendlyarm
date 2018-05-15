@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-alink-dtu-m.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-alink-dtu-m.ko drivers/media/rc/keymaps/rc-alink-dtu-m.o drivers/media/rc/keymaps/rc-alink-dtu-m.mod.o ;  true

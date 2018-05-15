@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-it913x-v1.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-it913x-v1.ko drivers/media/rc/keymaps/rc-it913x-v1.o drivers/media/rc/keymaps/rc-it913x-v1.mod.o ;  true

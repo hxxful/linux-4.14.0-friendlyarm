@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/shark2.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/radio/shark2.ko drivers/media/radio/shark2.o drivers/media/radio/shark2.mod.o ;  true

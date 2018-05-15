@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/chacha20-neon.o := rm -f arch/arm64/crypto/chacha20-neon.o; aarch64-linux-gnu-ar rcSTPD arch/arm64/crypto/chacha20-neon.o arch/arm64/crypto/chacha20-neon-core.o arch/arm64/crypto/chacha20-neon-glue.o

@@ -1,0 +1,48 @@
+!<thin>
+//                                              512       `
+stmmac/stmmac_main.o/
+stmmac/stmmac_ethtool.o/
+stmmac/stmmac_mdio.o/
+stmmac/ring_mode.o/
+stmmac/chain_mode.o/
+stmmac/dwmac_lib.o/
+stmmac/dwmac1000_core.o/
+stmmac/dwmac1000_dma.o/
+stmmac/dwmac100_core.o/
+stmmac/dwmac100_dma.o/
+stmmac/enh_desc.o/
+stmmac/norm_desc.o/
+stmmac/mmc_core.o/
+stmmac/stmmac_hwtstamp.o/
+stmmac/stmmac_ptp.o/
+stmmac/dwmac4_descs.o/
+stmmac/dwmac4_dma.o/
+stmmac/dwmac4_lib.o/
+stmmac/dwmac4_core.o/
+stmmac/stmmac_platform.o/
+stmmac/dwmac-sunxi.o/
+stmmac/dwmac-sun8i.o/
+stmmac/dwmac-generic.o/
+/0              0           0     0     644     65432     `
+/22             0           0     0     644     17696     `
+/47             0           0     0     644     6480      `
+/69             0           0     0     644     3568      `
+/89             0           0     0     644     3480      `
+/110            0           0     0     644     5336      `
+/130            0           0     0     644     8512      `
+/155           /0           0     0     644     4552      `
+/179           /0           0     0     644     4752      `
+/203            0           0     0     644     3336      `
+/226            0           0     0     644     5952      `
+/245            0           0     0     644     5000      `
+/265            0           0     0     644     8512      `
+/284            0           0     0     644     3512      `
+/310            0           0     0     644     3576      `
+/331            0           0     0     644     5368      `
+/354            0           0     0     644     8344      `
+/375            0           0     0     644     4192      `
+/396            0           0     0     644     12232     `
+/418            0           0     0     644     19952     `
+/444            0           0     0     644     6408      `
+/466            0           0     0     644     18576     `
+/488           /0           0     0     644     5848      `

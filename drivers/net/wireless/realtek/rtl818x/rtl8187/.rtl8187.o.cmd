@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.o := aarch64-linux-gnu-ld -EL  -maarch64linux   -r -o drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.o drivers/net/wireless/realtek/rtl818x/rtl8187/dev.o drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8225.o drivers/net/wireless/realtek/rtl818x/rtl8187/leds.o drivers/net/wireless/realtek/rtl818x/rtl8187/rfkill.o 

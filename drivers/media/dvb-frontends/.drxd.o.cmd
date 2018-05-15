@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/drxd.o := aarch64-linux-gnu-ld -EL  -maarch64linux   -r -o drivers/media/dvb-frontends/drxd.o drivers/media/dvb-frontends/drxd_firm.o drivers/media/dvb-frontends/drxd_hard.o 

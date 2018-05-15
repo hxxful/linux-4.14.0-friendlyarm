@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/hid-sensors/hid-sensor-iio-common.o := aarch64-linux-gnu-ld -EL  -maarch64linux   -r -o drivers/iio/common/hid-sensors/hid-sensor-iio-common.o drivers/iio/common/hid-sensors/hid-sensor-attributes.o 

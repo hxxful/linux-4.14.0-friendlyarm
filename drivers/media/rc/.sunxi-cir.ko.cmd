@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/sunxi-cir.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/sunxi-cir.ko drivers/media/rc/sunxi-cir.o drivers/media/rc/sunxi-cir.mod.o ;  true

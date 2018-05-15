@@ -1,0 +1,1 @@
+cmd_sound/soc/generic/snd-soc-simple-scu-card.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o sound/soc/generic/snd-soc-simple-scu-card.ko sound/soc/generic/snd-soc-simple-scu-card.o sound/soc/generic/snd-soc-simple-scu-card.mod.o ;  true

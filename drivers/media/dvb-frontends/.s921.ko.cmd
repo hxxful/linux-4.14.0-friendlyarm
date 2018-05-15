@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/s921.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/s921.ko drivers/media/dvb-frontends/s921.o drivers/media/dvb-frontends/s921.mod.o ;  true

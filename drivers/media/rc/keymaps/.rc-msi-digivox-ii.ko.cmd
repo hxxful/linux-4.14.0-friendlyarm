@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-msi-digivox-ii.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-msi-digivox-ii.ko drivers/media/rc/keymaps/rc-msi-digivox-ii.o drivers/media/rc/keymaps/rc-msi-digivox-ii.mod.o ;  true

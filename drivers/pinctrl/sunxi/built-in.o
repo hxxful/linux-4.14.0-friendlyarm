@@ -1,0 +1,12 @@
+!<thin>
+//                                              106       `
+pinctrl-sunxi.o/
+pinctrl-sun50i-a64.o/
+pinctrl-sun50i-a64-r.o/
+pinctrl-sun8i-h3-r.o/
+pinctrl-sun50i-h5.o/
+/0             /0           0     0     644     23176     `
+/17             0           0     0     644     41808     `
+/39             0           0     0     644     8080      `
+/63             0           0     0     644     7552      `
+/85             0           0     0     644     39264     `

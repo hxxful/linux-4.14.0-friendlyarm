@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/fc0011.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/fc0011.ko drivers/media/tuners/fc0011.o drivers/media/tuners/fc0011.mod.o ;  true
