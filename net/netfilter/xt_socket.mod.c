@@ -20,5 +20,5 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=nf_socket_ipv4,nf_defrag_ipv4,nf_defrag_ipv6,nf_socket_ipv6";
+"depends=nf_defrag_ipv4,nf_defrag_ipv6,nf_socket_ipv4,nf_socket_ipv6";
 

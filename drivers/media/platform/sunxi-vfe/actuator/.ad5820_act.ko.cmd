@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/sunxi-vfe/actuator/ad5820_act.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/sunxi-vfe/actuator/ad5820_act.ko drivers/media/platform/sunxi-vfe/actuator/ad5820_act.o drivers/media/platform/sunxi-vfe/actuator/ad5820_act.mod.o ;  true

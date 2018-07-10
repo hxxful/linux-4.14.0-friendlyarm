@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/sunxi-vfe/device/gc2145.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/sunxi-vfe/device/gc2145.ko drivers/media/platform/sunxi-vfe/device/gc2145.o drivers/media/platform/sunxi-vfe/device/gc2145.mod.o ;  true

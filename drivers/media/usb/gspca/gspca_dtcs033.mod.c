@@ -20,6 +20,6 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=videodev,gspca_main";
+"depends=gspca_main";
 
 MODULE_ALIAS("usb:v0547p7303d*dc*dsc*dp*ic*isc*ip*in*");

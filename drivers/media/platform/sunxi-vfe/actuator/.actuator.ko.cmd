@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/sunxi-vfe/actuator/actuator.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/sunxi-vfe/actuator/actuator.ko drivers/media/platform/sunxi-vfe/actuator/actuator.o drivers/media/platform/sunxi-vfe/actuator/actuator.mod.o ;  true

@@ -1,0 +1,9 @@
+kernel/drivers/media/platform/sunxi-vin/modules/sensor/ov5640.ko
+kernel/drivers/media/platform/sunxi-vin/modules/sensor/gc2145.ko
+kernel/drivers/media/platform/sunxi-vin/modules/actuator/actuator.ko
+kernel/drivers/media/platform/sunxi-vin/modules/actuator/ad5820_act.ko
+kernel/drivers/media/platform/sunxi-vin/modules/actuator/dw9714_act.ko
+kernel/drivers/media/platform/sunxi-vin/modules/actuator/ov8825_act.ko
+kernel/drivers/media/platform/sunxi-vin/modules/actuator/an41908a_act.ko
+kernel/drivers/media/platform/sunxi-vin/vin_io.ko
+kernel/drivers/media/platform/sunxi-vin/vin_v4l2.ko

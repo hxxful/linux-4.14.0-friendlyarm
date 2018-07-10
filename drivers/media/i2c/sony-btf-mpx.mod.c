@@ -20,6 +20,6 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=v4l2-common,videodev";
+"depends=";
 
 MODULE_ALIAS("i2c:sony-btf-mpx");

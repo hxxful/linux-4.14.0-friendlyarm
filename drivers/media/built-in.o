@@ -1,14 +1,38 @@
 !<thin>
-//                                              98        `
+//                                              396       `
+v4l2-core/v4l2-dev.o/
+v4l2-core/v4l2-ioctl.o/
+v4l2-core/v4l2-device.o/
+v4l2-core/v4l2-fh.o/
+v4l2-core/v4l2-event.o/
+v4l2-core/v4l2-ctrls.o/
+v4l2-core/v4l2-subdev.o/
+v4l2-core/v4l2-clk.o/
+v4l2-core/v4l2-async.o/
+v4l2-core/v4l2-compat-ioctl32.o/
+v4l2-core/v4l2-common.o/
+v4l2-core/v4l2-dv-timings.o/
 cec/cec-core.o/
 cec/cec-adap.o/
 cec/cec-api.o/
 cec/cec-edid.o/
 cec/cec-notifier.o/
 cec/cec-pin.o/
-/0              0           0     0     644     13832     `
-/16             0           0     0     644     35112     `
-/32             0           0     0     644     12080     `
-/47             0           0     0     644     4096      `
-/63             0           0     0     644     6176      `
-/83             0           0     0     644     12656     `
+/0              0           0     0     644     25312     `
+/22             0           0     0     644     78712     `
+/46             0           0     0     644     8712      `
+/71             0           0     0     644     6080      `
+/92             0           0     0     644     11120     `
+/116            0           0     0     644     95448     `
+/140            0           0     0     644     6456      `
+/165            0           0     0     644     12264     `
+/187            0           0     0     644     8888      `
+/211            0           0     0     644     42208     `
+/244            0           0     0     644     10424     `
+/269            0           0     0     644     29240     `
+/298            0           0     0     644     13944     `
+/314            0           0     0     644     35088     `
+/330            0           0     0     644     12304     `
+/345            0           0     0     644     4200      `
+/361            0           0     0     644     6224      `
+/381            0           0     0     644     12688     `

@@ -608,6 +608,8 @@ deps_config := \
 	drivers/media/platform/sti/c8sectpfe/Kconfig \
 	drivers/media/platform/vivid/Kconfig \
 	drivers/media/platform/vimc/Kconfig \
+	drivers/media/platform/sunxi-vfe/Kconfig \
+	drivers/media/platform/sunxi-vin/Kconfig \
 	drivers/media/platform/atmel/Kconfig \
 	drivers/media/platform/rcar-vin/Kconfig \
 	drivers/media/platform/xilinx/Kconfig \

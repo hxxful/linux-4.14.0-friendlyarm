@@ -20,7 +20,7 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=em28xx,dvb-core";
+"depends=em28xx";
 
 
 MODULE_INFO(srcversion, "FF6984310F56D5CF431A03F");

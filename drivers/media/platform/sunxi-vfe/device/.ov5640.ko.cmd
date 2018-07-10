@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/sunxi-vfe/device/ov5640.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/sunxi-vfe/device/ov5640.ko drivers/media/platform/sunxi-vfe/device/ov5640.o drivers/media/platform/sunxi-vfe/device/ov5640.mod.o ;  true

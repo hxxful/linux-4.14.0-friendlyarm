@@ -1,0 +1,4 @@
+kernel/drivers/media/platform/sunxi-vfe/device/ov5640.ko
+kernel/drivers/media/platform/sunxi-vfe/device/gc2145.ko
+kernel/drivers/media/platform/sunxi-vfe/device/gc0328c.ko
+kernel/drivers/media/platform/sunxi-vfe/device/gc0312.ko

@@ -1,0 +1,2 @@
+kernel/drivers/media/platform/sunxi-vin/modules/sensor/ov5640.ko
+kernel/drivers/media/platform/sunxi-vin/modules/sensor/gc2145.ko

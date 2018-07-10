@@ -20,7 +20,7 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=videobuf2-v4l2,videodev,media,dvb-core,v4l2-common,tveeprom,videobuf2-vmalloc,videobuf2-core";
+"depends=videobuf2-v4l2,tveeprom,videobuf2-vmalloc,videobuf2-core";
 
 MODULE_ALIAS("usb:v2040p7200d*dc*dsc*dp*ic*isc*ip*in*");
 MODULE_ALIAS("usb:v2040p7240d*dc*dsc*dp*ic*isc*ip*in*");

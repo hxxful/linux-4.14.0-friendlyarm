@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/sunxi-vfe/vfe_io.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/sunxi-vfe/vfe_io.ko drivers/media/platform/sunxi-vfe/vfe_io.o drivers/media/platform/sunxi-vfe/vfe_io.mod.o ;  true

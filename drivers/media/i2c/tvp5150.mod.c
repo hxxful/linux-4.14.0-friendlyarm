@@ -20,7 +20,7 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=videodev,v4l2-common,v4l2-fwnode,media";
+"depends=v4l2-fwnode";
 
 MODULE_ALIAS("of:N*T*Cti,tvp5150");
 MODULE_ALIAS("of:N*T*Cti,tvp5150C*");

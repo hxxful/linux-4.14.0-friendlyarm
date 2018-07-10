@@ -1,83 +1,72 @@
-	.arch armv8-a
+	.cpu generic+fp+simd
 	.file	"devicetable-offsets.c"
-// GNU C89 (Linaro GCC 6.4-2017.11) version 6.4.1 20171012 (aarch64-linux-gnu)
-//	compiled by GNU C version 4.8.4, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+// GNU C (Linaro GCC 4.9-2015.01-3) version 4.9.3 20150113 (prerelease) (aarch64-linux-gnu)
+//	compiled by GNU C version 4.9.2, GMP version 5.1.3, MPFR version 3.1.2, MPC version 1.0.1
 // GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 // options passed:  -nostdinc -I ./arch/arm64/include
 // -I ./arch/arm64/include/generated -I ./include
 // -I ./arch/arm64/include/uapi -I ./arch/arm64/include/generated/uapi
 // -I ./include/uapi -I ./include/generated/uapi
 // -imultiarch aarch64-linux-gnu
-// -iprefix /root/Workspace/tools/toolchains/gcc-linaro-6.4.1-2017.11-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/6.4.1/
-// -isysroot /root/Workspace/tools/toolchains/gcc-linaro-6.4.1-2017.11-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc
-// -D __KERNEL__ -D CONFIG_AS_LSE=1 -D CC_HAVE_ASM_GOTO
+// -iprefix /root/Workspace/tools/toolchains/gcc-linaro-4.9-2015.02-3-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/4.9.3/
+// -isysroot /root/Workspace/tools/toolchains/gcc-linaro-4.9-2015.02-3-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc
+// -D __KERNEL__ -D CONFIG_BROKEN_GAS_INST=1 -D CC_HAVE_ASM_GOTO
 // -D KBUILD_BASENAME="devicetable_offsets"
 // -D KBUILD_MODNAME="devicetable_offsets"
-// -isystem /root/Workspace/tools/toolchains/gcc-linaro-6.4.1-2017.11-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/6.4.1/include
+// -isystem /root/Workspace/tools/toolchains/gcc-linaro-4.9-2015.02-3-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/4.9.3/include
 // -include ./include/linux/kconfig.h
 // -MD scripts/mod/.devicetable-offsets.s.d
 // scripts/mod/devicetable-offsets.c -mlittle-endian -mgeneral-regs-only
-// -mpc-relative-literal-loads -mabi=lp64 -march=armv8-a
-// -auxbase-strip scripts/mod/devicetable-offsets.s -O2 -Wall -Wundef
-// -Wstrict-prototypes -Wno-trigraphs -Werror=implicit-function-declaration
-// -Wno-format-security -Wno-frame-address -Wframe-larger-than=2048
-// -Wno-unused-but-set-variable -Wunused-const-variable=0
+// -mabi=lp64 -auxbase-strip scripts/mod/devicetable-offsets.s -O2 -Wall
+// -Wundef -Wstrict-prototypes -Wno-trigraphs
+// -Werror=implicit-function-declaration -Wno-format-security
+// -Wframe-larger-than=2048 -Wno-unused-but-set-variable
 // -Wdeclaration-after-statement -Wno-pointer-sign -Werror=implicit-int
-// -Werror=strict-prototypes -Werror=date-time
-// -Werror=incompatible-pointer-types -Werror=designated-init -std=gnu90
+// -Werror=strict-prototypes -Werror=date-time -std=gnu90
 // -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE
 // -fno-asynchronous-unwind-tables -fno-delete-null-pointer-checks
 // -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls
 // -fno-var-tracking-assignments -fno-strict-overflow -fconserve-stack
 // -fverbose-asm --param allow-store-data-races=0
-// options enabled:  -faggressive-loop-optimizations -falign-labels
-// -fauto-inc-dec -fbranch-count-reg -fcaller-saves
-// -fchkp-check-incomplete-type -fchkp-check-read -fchkp-check-write
-// -fchkp-instrument-calls -fchkp-narrow-bounds -fchkp-optimize
-// -fchkp-store-bounds -fchkp-use-static-bounds
-// -fchkp-use-static-const-bounds -fchkp-use-wrappers
-// -fcombine-stack-adjustments -fcompare-elim -fcprop-registers
-// -fcrossjumping -fcse-follow-jumps -fdefer-pop -fdevirtualize
-// -fdevirtualize-speculatively -fdwarf2-cfi-asm -fearly-inlining
-// -feliminate-unused-debug-types -fexpensive-optimizations
-// -fforward-propagate -ffunction-cse -fgcse -fgcse-lm -fgnu-runtime
-// -fgnu-unique -fguess-branch-probability -fhoist-adjacent-loads -fident
-// -fif-conversion -fif-conversion2 -findirect-inlining -finline
-// -finline-atomics -finline-functions-called-once -finline-small-functions
-// -fipa-cp -fipa-cp-alignment -fipa-icf -fipa-icf-functions
-// -fipa-icf-variables -fipa-profile -fipa-pure-const -fipa-ra
-// -fipa-reference -fipa-sra -fira-hoist-pressure -fira-share-save-slots
-// -fira-share-spill-slots -fisolate-erroneous-paths-dereference -fivopts
-// -fkeep-static-consts -fleading-underscore -flifetime-dse -flra-remat
-// -flto-odr-type-merging -fmath-errno -fmerge-constants
+// options enabled:  -faggressive-loop-optimizations -fauto-inc-dec
+// -fbranch-count-reg -fcaller-saves -fcombine-stack-adjustments
+// -fcompare-elim -fcprop-registers -fcrossjumping -fcse-follow-jumps
+// -fdefer-pop -fdevirtualize -fdevirtualize-speculatively -fdwarf2-cfi-asm
+// -fearly-inlining -feliminate-unused-debug-types
+// -fexpensive-optimizations -fforward-propagate -ffunction-cse -fgcse
+// -fgcse-lm -fgnu-runtime -fgnu-unique -fguess-branch-probability
+// -fhoist-adjacent-loads -fident -fif-conversion -fif-conversion2
+// -findirect-inlining -finline -finline-atomics
+// -finline-functions-called-once -finline-small-functions -fipa-cp
+// -fipa-profile -fipa-pure-const -fipa-reference -fipa-sra
+// -fira-hoist-pressure -fira-share-save-slots -fira-share-spill-slots
+// -fisolate-erroneous-paths-dereference -fivopts -fkeep-static-consts
+// -fleading-underscore -fmath-errno -fmerge-constants
 // -fmerge-debug-strings -fmove-loop-invariants -fomit-frame-pointer
-// -foptimize-strlen -fpartial-inlining -fpeephole -fpeephole2 -fplt
+// -foptimize-strlen -fpartial-inlining -fpeephole -fpeephole2
 // -fprefetch-loop-arrays -free -freg-struct-return -freorder-blocks
 // -freorder-functions -frerun-cse-after-loop
 // -fsched-critical-path-heuristic -fsched-dep-count-heuristic
 // -fsched-group-heuristic -fsched-interblock -fsched-last-insn-heuristic
 // -fsched-pressure -fsched-rank-heuristic -fsched-spec
-// -fsched-spec-insn-heuristic -fsched-stalled-insns-dep -fschedule-fusion
-// -fschedule-insns -fschedule-insns2 -fsection-anchors
-// -fsemantic-interposition -fshow-column -fshrink-wrap -fsigned-zeros
-// -fsplit-ivs-in-unroller -fsplit-wide-types -fssa-backprop -fssa-phiopt
-// -fstdarg-opt -fstrict-volatile-bitfields -fsync-libcalls -fthread-jumps
+// -fsched-spec-insn-heuristic -fsched-stalled-insns-dep -fschedule-insns
+// -fschedule-insns2 -fsection-anchors -fshow-column -fshrink-wrap
+// -fsigned-zeros -fsplit-ivs-in-unroller -fsplit-wide-types
+// -fstrict-volatile-bitfields -fsync-libcalls -fthread-jumps
 // -ftoplevel-reorder -ftrapping-math -ftree-bit-ccp
 // -ftree-builtin-call-dce -ftree-ccp -ftree-ch -ftree-coalesce-vars
-// -ftree-copy-prop -ftree-cselim -ftree-dce -ftree-dominator-opts
-// -ftree-dse -ftree-forwprop -ftree-fre -ftree-loop-if-convert
-// -ftree-loop-im -ftree-loop-ivcanon -ftree-loop-optimize
-// -ftree-parallelize-loops= -ftree-phiprop -ftree-pre -ftree-pta
-// -ftree-reassoc -ftree-scev-cprop -ftree-sink -ftree-slsr -ftree-sra
-// -ftree-switch-conversion -ftree-tail-merge -ftree-ter -ftree-vrp
-// -funit-at-a-time -fverbose-asm -fzero-initialized-in-bss
-// -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -mgeneral-regs-only
-// -mglibc -mlittle-endian -momit-leaf-frame-pointer
-// -mpc-relative-literal-loads
+// -ftree-copy-prop -ftree-copyrename -ftree-cselim -ftree-dce
+// -ftree-dominator-opts -ftree-dse -ftree-forwprop -ftree-fre
+// -ftree-loop-if-convert -ftree-loop-im -ftree-loop-ivcanon
+// -ftree-loop-optimize -ftree-parallelize-loops= -ftree-phiprop -ftree-pre
+// -ftree-pta -ftree-reassoc -ftree-scev-cprop -ftree-sink -ftree-slsr
+// -ftree-sra -ftree-switch-conversion -ftree-tail-merge -ftree-ter
+// -ftree-vrp -funit-at-a-time -fverbose-asm -fzero-initialized-in-bss
+// -mfix-cortex-a53-835769 -mgeneral-regs-only -mglibc -mlittle-endian
+// -mlra -momit-leaf-frame-pointer
 
-	.section	.text.startup,"ax",@progbits
+	.section	.text.startup,"ax",%progbits
 	.align	2
-	.p2align 3,,7
 	.global	main
 	.type	main, %function
 main:
@@ -726,5 +715,5 @@ main:
 	mov	w0, 0	//,
 	ret
 	.size	main, .-main
-	.ident	"GCC: (Linaro GCC 6.4-2017.11) 6.4.1 20171012"
-	.section	.note.GNU-stack,"",@progbits
+	.ident	"GCC: (Linaro GCC 4.9-2015.01-3) 4.9.3 20150113 (prerelease)"
+	.section	.note.GNU-stack,"",%progbits

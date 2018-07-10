@@ -20,5 +20,5 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=tm6000,dvb-core";
+"depends=tm6000";
 

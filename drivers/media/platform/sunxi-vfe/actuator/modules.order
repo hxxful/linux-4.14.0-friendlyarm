@@ -1,0 +1,4 @@
+kernel/drivers/media/platform/sunxi-vfe/actuator/actuator.ko
+kernel/drivers/media/platform/sunxi-vfe/actuator/ad5820_act.ko
+kernel/drivers/media/platform/sunxi-vfe/actuator/dw9714_act.ko
+kernel/drivers/media/platform/sunxi-vfe/actuator/ov8825_act.ko

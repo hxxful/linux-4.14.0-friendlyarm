@@ -16,5 +16,5 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=videobuf2-v4l2,videodev,videobuf2-vmalloc,videobuf2-core,v4l2-common";
+"depends=videobuf2-v4l2,videobuf2-vmalloc,videobuf2-core";
 

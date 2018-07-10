@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/sunxi-vin/vin_io.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/sunxi-vin/vin_io.ko drivers/media/platform/sunxi-vin/vin_io.o drivers/media/platform/sunxi-vin/vin_io.mod.o ;  true

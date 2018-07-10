@@ -20,7 +20,7 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=videobuf2-v4l2,videodev,videobuf2-vmalloc,videobuf2-core";
+"depends=videobuf2-v4l2,videobuf2-vmalloc,videobuf2-core";
 
 MODULE_ALIAS("usb:v0471p0302d*dc*dsc*dp*ic*isc*ip*in*");
 MODULE_ALIAS("usb:v0471p0303d*dc*dsc*dp*ic*isc*ip*in*");

@@ -188,6 +188,9 @@ kernel/drivers/leds/uleds.ko
 kernel/drivers/leds/trigger/ledtrig-heartbeat.ko
 kernel/drivers/mailbox/arm_mhu.ko
 kernel/drivers/media/cec/cec.ko
+kernel/drivers/media/v4l2-core/videodev.ko
+kernel/drivers/media/v4l2-core/v4l2-common.ko
+kernel/drivers/media/v4l2-core/v4l2-dv-timings.ko
 kernel/drivers/mfd/mfd-core.ko
 kernel/drivers/mmc/core/mmc_core.ko
 kernel/drivers/mmc/core/pwrseq_simple.ko

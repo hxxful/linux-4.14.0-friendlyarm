@@ -20,7 +20,7 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=videodev,media,v4l2-common";
+"depends=";
 
 MODULE_ALIAS("of:N*T*Covti,ov2640");
 MODULE_ALIAS("of:N*T*Covti,ov2640C*");

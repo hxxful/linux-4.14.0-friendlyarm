@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/sunxi-vfe/vfe_sample.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/sunxi-vfe/vfe_sample.ko drivers/media/platform/sunxi-vfe/vfe_sample.o drivers/media/platform/sunxi-vfe/vfe_sample.mod.o ;  true

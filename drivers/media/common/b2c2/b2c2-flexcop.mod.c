@@ -20,5 +20,5 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=s5h1420,dvb-core,cx24113,cx24123";
+"depends=s5h1420,cx24113,cx24123";
 

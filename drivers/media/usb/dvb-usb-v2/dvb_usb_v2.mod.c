@@ -16,7 +16,7 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=rc-core,dvb-core";
+"depends=rc-core";
 
 
 MODULE_INFO(srcversion, "BC01237CA1081963F66C023");

@@ -20,6 +20,6 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=v4l2-common,videodev,media";
+"depends=";
 
 MODULE_ALIAS("i2c:mt9v011");

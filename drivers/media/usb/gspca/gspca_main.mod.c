@@ -20,7 +20,7 @@ MODULE_INFO(intree, "Y");
 static const char __module_depends[]
 __used
 __attribute__((section(".modinfo"))) =
-"depends=videodev,v4l2-common";
+"depends=";
 
 
 MODULE_INFO(srcversion, "ED7FD15C29E3722C7DB4C96");

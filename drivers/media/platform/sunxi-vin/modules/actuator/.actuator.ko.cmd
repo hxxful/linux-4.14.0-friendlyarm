@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/sunxi-vin/modules/actuator/actuator.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/sunxi-vin/modules/actuator/actuator.ko drivers/media/platform/sunxi-vin/modules/actuator/actuator.o drivers/media/platform/sunxi-vin/modules/actuator/actuator.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/sunxi-vfe/device/gc0328c.ko := aarch64-linux-gnu-ld -EL -r  -maarch64linux -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/sunxi-vfe/device/gc0328c.ko drivers/media/platform/sunxi-vfe/device/gc0328c.o drivers/media/platform/sunxi-vfe/device/gc0328c.mod.o ;  true

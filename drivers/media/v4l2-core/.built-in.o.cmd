@@ -1,1 +1,1 @@
-cmd_drivers/media/v4l2-core/built-in.o :=  rm -f drivers/media/v4l2-core/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/media/v4l2-core/built-in.o
+cmd_drivers/media/v4l2-core/built-in.o :=  rm -f drivers/media/v4l2-core/built-in.o; aarch64-linux-gnu-ar rcSTPD drivers/media/v4l2-core/built-in.o drivers/media/v4l2-core/videodev.o drivers/media/v4l2-core/v4l2-common.o drivers/media/v4l2-core/v4l2-dv-timings.o 
